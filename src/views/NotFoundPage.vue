@@ -7,3 +7,11 @@
     </h2>
   </div>
 </template>
+
+<script setup lang="ts">
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  document.title = 'Page not found'
+})
+</script>
